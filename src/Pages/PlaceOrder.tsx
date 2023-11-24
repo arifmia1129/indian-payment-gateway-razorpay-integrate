@@ -1,5 +1,9 @@
-import React from "react";
+import PlaceOrderHeadert from "../components/placeOrder/PlaceOrderHeadert";
 
 export default function PlaceOrder() {
-  return <div>PlaceOrder</div>;
+  return (
+    <div>
+      <PlaceOrderHeadert />
+    </div>
+  );
 }
