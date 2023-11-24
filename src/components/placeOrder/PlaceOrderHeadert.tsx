@@ -1,3 +1,5 @@
+import { MdCurrencyRupee } from "react-icons/md";
+
 export default function PlaceOrderHeadert() {
   return (
     <div className="flex justify-center my-10 ">
@@ -13,7 +15,10 @@ export default function PlaceOrderHeadert() {
         </div>
         <div className="flex justify-evenly">
           <p className="mx-0 md:mx-10">25 mins</p>
-          <p className="mx-0 md:mx-10">$20</p>
+          <div className="mx-0 md:mx-10 flex items-center">
+            <MdCurrencyRupee />
+            <p>20</p>
+          </div>
           <p className="mx-0 md:mx-10">Discounts</p>
         </div>
         <p className="text-center mt-5 text-sm font-bold">
