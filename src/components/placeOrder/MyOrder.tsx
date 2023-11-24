@@ -4,7 +4,7 @@ export default function MyOrder() {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Your Order</h1>
+        <h1 className="text-4xl font-bold">Your Order</h1>
         <button className="text-xl font-bold text-red-500 flex items-center">
           <h3>Add Item</h3>
           <IoMdAdd />
